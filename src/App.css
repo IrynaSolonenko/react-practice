@@ -1,0 +1,52 @@
+th, td{
+  border: 1px solid;
+}
+.white{
+  color: black;
+  background-color: white;
+}
+.green{
+  background-color: green;
+  color: white;
+}
+
+.red{
+  background-color: red;
+  color: white;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.item-1{
+  background-color: #699494;
+}
+ .item-2{
+  background-color: #d7877e;
+}
+.item-3{
+  background-color: #0b6ab8;
+}
+
+.main-container{
+  height: 150px;
+width: 450px;
+  display: flex;
+  align-items: center;
+}
+.window{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.all-pages-container{
+  height: 100%;
+  display: flex;
+}
+.arrow{
+  cursor: pointer;
+}
